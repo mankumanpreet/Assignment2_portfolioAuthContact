@@ -306,6 +306,11 @@ form.contact-form {     float: left;     width: 100%; }
 button.contact-btn {     background: #9B7B55;     padding: 16px 20px;     border: none; }
 button.contact-btn {     background: #9B7B55;     padding:20px;     border: none;     color: #fff;     font-size: 18px;     font-weight: 600;     line-height: 21.6px;     letter-spacing: 2px; width: 213.86px; }
 
+
+
+
+
+
 /*03-Nov-2020***/
 button.contact-btn:hover {     background: #895f2e; }
 /****Footer****/
@@ -333,6 +338,10 @@ footer {     float: left;     width: 100%; }
 .footer-logo a { float: left; width: 100%; }
 .footer-logo a img {      width: 179px;     float: left;     height: 175px;     object-fit: cover;}
 
+
+
+
+
 /*04-Nov-2020*/
 .submit-btn input {     background: #9B7B55;     padding: 20px;     border: none;     color: #fff;     font-size: 18px;     font-weight: 600;     line-height: 21.6px;     letter-spacing: 2px;     width: 213.86px; }
 .fright-section a {   margin: 0px 11px 0 !important;  float: none;     width: auto;     font-size: 20px;     font-weight: 400;     color: #272727;     margin: 0;     text-align: center;     text-decoration: none; }
@@ -342,6 +351,9 @@ span.responsive-menu-button-text {     width: 100%;     float: left; }
 .f-social-icons br {     display: none; } 
 .submit-btn input:hover {     background: #895f2e; }    
 .contact-footer .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {     text-align: center;    border-color: #ffb900;     width: 100%;     float: left;     color: #fff;     font-size: 13px;     margin: 20px 0 0 0; } 
+
+   
+
 
 /*05-nov-2020*/
 .contact-footer  div.wpcf7 .ajax-loader { float: left;}    
@@ -354,6 +366,7 @@ span.responsive-menu-button-text {     width: 100%;     float: left; }
 .contact-footer div.wpcf7 .ajax-loader {margin: 24px 0 0 4px;  position: absolute;left: 33%;}   
 .toba_section {     margin: 20px 0 0 0; } 
 
+
 /*06-nov-2020*/
 .scroll_line {     width: 100%;     float: left; 	position:relative; z-index:999;} 
 .scroll_line a {     width: auto;     float: left;     color: #ECEDEF; position:relative; }  
@@ -362,6 +375,8 @@ span.responsive-menu-button-text {     width: 100%;     float: left; }
 .scroll_line a:focus{color: #ECEDEF; text-decoration:none;}
 .scroll_line a:hover{color: #ECEDEF; text-decoration:none;}   
 .contact-inner iframe {     float: left;     width: 100%;     height: 100%; }  
+
+
 
 /* 14-12-2020 */
 #responsive-menu-container #responsive-menu li.responsive-menu-item a {     padding: 10px 110px 10px 15px!important; }
@@ -452,6 +467,7 @@ footer .footer-inner:last-child {
 }
 }
 
+
 @media (max-width:480px){
 .meeting_section .ul_main li {
     width: 100%; float: left;
@@ -518,11 +534,14 @@ form legend{
     background-color: #efefef !important;
 }
 footer .fixed-bottom{
-    position: fixed;
+    position: unset;
 }
 .bs-component .card-body .btn-primary{
     background-color: #000000 !important;
 }
+
+
+
 
 @media (max-width:767px){
     .graph_section .dealing_first {
@@ -586,3 +605,6 @@ footer .fixed-bottom{
     }
 
 }
+
+
+
